@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">exp2_3_1-explicit_intent</string>
+    <string name="myaty_textview1_text">这是一个使用显式Intent打开的活动</string>
+    <string name="activity_main_btn1_text">start myaty</string>
 </resources>
