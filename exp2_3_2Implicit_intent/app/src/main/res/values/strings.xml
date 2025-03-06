@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">exp2_3_2Implicit_intent</string>
+    <string name="activity_main_tv1_text">主活动</string>
+    <string name="activity_main_bt1_text">启动另一个活动</string>
+    <string name="activity_main2_tx1_text">这是另一个活动</string>
+</resources>
