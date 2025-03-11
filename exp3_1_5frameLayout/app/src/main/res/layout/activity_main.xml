@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dip"
+        android:textColor="#ff0000"
+        android:text="第3层文本视图"
+        android:id="@+id/textView1" />
+    <TextView
+        android:text="第2层文本视图"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000dff"
+        android:textSize="30dip"
+        android:layout_gravity="center"
+        android:id="@+id/textView2" />
+    <Button
+        android:text="第1层按钮"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/button" />
+</FrameLayout>
